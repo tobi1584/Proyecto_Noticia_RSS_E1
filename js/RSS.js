@@ -36,15 +36,15 @@ function creaXML(){
             <rss version="2.0">
                 <channel>
                     <title>RSS E1</title>
-                    <link>${"https://aleorfu-safa.github.io/E4-LMSGI/"}</link>
-                    <description>Sindicación de noticias elaboradas por E4</description>`;
+                    <link>${"https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/"}</link>
+                    <description>RSS de noticias E1</description>`;
 
         for(let i=0; i<uwu; i++){
             datosLocal = JSON.parse(datosRSS.split(";")[i])
             xml = xml + `
                     <item>
                         <title>${datosLocal.titulo}</title>
-                        <link>${"https://aleorfu-safa.github.io/E4-LMSGI/noticia"+(i+1)+".html"}</link>
+                        <link>${"https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/noticia"+(i+1)+".html"}</link>
                         <description>${datosLocal.descripcion}</description>
                         <author>${datosLocal.autor}</author>
                         <pubDate>${datosLocal.fecha}</pubDate>
@@ -62,7 +62,7 @@ function creaXML(){
     }
 
     // Copiar link
-    navigator.clipboard.writeText("https://aleorfu-safa.github.io/E4-LMSGI/noticias.xml");
+    navigator.clipboard.writeText("https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/noticias.xml");
 
     // Cambiar texto por un segundo
     botonRSS.innerHTML = "Enlace copiado al portapapeles"
