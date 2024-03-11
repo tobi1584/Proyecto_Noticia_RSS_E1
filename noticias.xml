@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+            <rss version="2.0">
+                <channel>
+                    <title>RSS E1</title>
+                    <link>https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/</link>
+                    <description>RSS de noticias E1</description>
+                    <item>
+                        <title>hola</title>
+                        <link>https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/noticia1.html</link>
+                        <description>aa</description>
+                        <author>aaa</author>
+                        <pubDate>2024-03-24</pubDate>
+                        <category>a</category>
+                        <enclosure url="aaaa" length="90000" type="image/jpg"/>
+                    </item></channel>
+            </rss>
