@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/General.css">
+    <script src="js/formulario.js" defer></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-md bg-dark">
+    <div class="container-fluid d-flex justify-content-between">
+        <div>
+            <a class="btn btn-primary btn-grande" href="index.html" ><img alt="img" src="IMG/rss.png" class="icono ">Menú principal</a>
+        </div>
+        <div class="navbar-nav">
+            <h1 class="text-center mt-1 fs-1 text-light pe-5">Formulario</h1>
+        </div>
+        <div></div>
+    </div>
+</nav>
+<div class="container">
+    <main>
+        <form class="row g-3 mt-1" id="formulario">
+            <div class="col-6">
+                <label for="titulo" class="form-label">Título</label>
+                <input type="text" class="form-control" id="titulo" placeholder="Inserte un título" required>
+            </div>
+            <div class="col-6">
+                <label for="categoria" class="form-label">Categoría</label>
+                <input type="text" class="form-control" id="categoria" placeholder="Inserte la categoría">
+            </div>
+            <div class="col-12">
+                <label for="autor" class="form-label">Autor</label>
+                <input type="text" class="form-control" id="autor" placeholder="Inserte un autor">
+            </div>
+            <div class="col-12">
+                <label for="descripcion" class="form-label">Descripción</label>
+                <input type="text" class="form-control" id="descripcion" placeholder="Inserte un autor">
+            </div>
+            <div class="col-12">
+                <label for="contenido" class="form-label">Contenido</label>
+                <textarea class="form-control" id="contenido" rows="3" placeholder="Inserte un contenido"></textarea>
+            </div>
+            <div class="col-12">
+                <label for="fecha" class="form-label">Fecha</label>
+                <input type="date" class="form-control" id="fecha" placeholder="Inserte una fecha">
+            </div>
+            <div class="col-12">
+                <label for="imagen" class="form-label">Imagen</label>
+                <input type="text" class="form-control" id="imagen" placeholder="Inserte la URL de la imagen">
+            </div>
+            <div class="col-12 mt-4 mb-1">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="publicado" required>
+                    <label class="form-check-label" for="publicado">He aceptado los términos y condiciones</label>
+                </div>
+            </div>
+            <div class="col-12 mt-3 mb-5 row">
+                <div class="col-2">
+                    <button type="submit" class=" btn-grande btn btn-primary ps-4 pe-4 pt-2 pb-2" id="guardar">Enviar</button>
+                </div>
+                <div class="col-2">
+                    <button type="reset" class=" btn-grande btn btn-primary ps-4 pe-4 pt-2 pb-2" id="limpiar">Borrar todo</button>
+                </div>
+            </div>
+        </form>
+    </main>
+</div>
+</body>
+</html>

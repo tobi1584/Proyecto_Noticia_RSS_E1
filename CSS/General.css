@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(to right, #09598e, #2ecc71);
+}
+.btn-grande {
+    border-radius: 20px;
+}
+button:hover{
+    transform: scale(140%);
+    cursor: pointer;
+}
+label {
+    color: white;
+}
+.icono{
+    width: 20px;
+    height: 20px;
+}
