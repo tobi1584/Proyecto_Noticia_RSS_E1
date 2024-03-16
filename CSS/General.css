@@ -1,5 +1,11 @@
 body{
     background: linear-gradient(to right, #09598e, #2ecc71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin: 0;
+    padding: 0;
     color: white;
 }
 .btn-grande {
