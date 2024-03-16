@@ -1,5 +1,7 @@
 body{
     background: linear-gradient(to right, #09598e, #2ecc71);
+    color: white;
+    text-align: center;
 }
 .btn-grande {
     border-radius: 20px;
