@@ -13,7 +13,7 @@
 
             <fo:page-sequence master-reference="A4">
                 <fo:flow flow-name="xsl-region-body">
-                    <fo:block font-family="Garamond, 12" font-weight="bold" text-align="center">
+                    <fo:block font-family="Garamond" font-size="12pt" font-weight="bold" text-align="center">
                         <fo:block>Trabajo para el caso PBL</fo:block>
                         <fo:block>Sindicación de Contenidos con RSS</fo:block>
                         <fo:block>Lenguajes de Marcas y Sistemas de Gestión de la Información</fo:block>
@@ -22,11 +22,19 @@
                               font-family="Arial" text-decoration="underline">POOL DE NOTICIAS SINDICADAS
                     </fo:block>
                     <xsl:apply-templates select="//item"/>
-                    <fo:block text-align="left" font-size="12px" font-family="TimesNewRoman" font-weight="bold" margin-top="10mm">
-                        Componentes del grupo:
-                        <fo:block>Francisco Javier Montes Estrabón</fo:block>
-                        <fo:block>Ricardo Tovar Fernández</fo:block>
-                    </fo:block>
+                    <fo:table width="100%" font-size="12px" font-family="TimesNewRoman" font-weight="bold" margin-top="10mm">
+                        <fo:table-body>
+                            <fo:table-row>
+                                <fo:table-cell text-align="left">
+                                    <fo:block>Componentes del grupo:</fo:block>
+                                </fo:table-cell>
+                                <fo:table-cell text-align="right" margin-top="-5mm">
+                                    <fo:block>Francisco Javier Montes Estrabón</fo:block>
+                                    <fo:block>Ricardo Tovar Fernández</fo:block>
+                                </fo:table-cell>
+                            </fo:table-row>
+                        </fo:table-body>
+                    </fo:table>
                 </fo:flow>
             </fo:page-sequence>
         </fo:root>
@@ -37,6 +45,7 @@
             <fo:table width="100%" text-align="left">
                 <fo:table-body>
                     <fo:table-row>
+                        <!-- Celda para la imagen -->
                         <fo:table-cell padding="4px" number-columns-spanned="4">
                             <fo:block>
                                 <!-- Incluye la imagen -->
@@ -45,11 +54,13 @@
                         </fo:table-cell>
                     </fo:table-row>
                     <fo:table-row>
+                        <!-- Celda para la categoría -->
                         <fo:table-cell padding="4px" number-columns-spanned="2">
                             <fo:block font-family="Trebuchet" font-weight="bold" font-size="12px">
                                 <xsl:value-of select="category"/>
                             </fo:block>
                         </fo:table-cell>
+                        <!-- Celda para la fecha de publicación -->
                         <fo:table-cell padding="4px" number-columns-spanned="2">
                             <fo:block font-family="Trebuchet" font-weight="bold" font-size="10px">
                                 <xsl:value-of select="pubDate"/>
@@ -57,6 +68,7 @@
                         </fo:table-cell>
                     </fo:table-row>
                     <fo:table-row>
+                        <!-- Celda para el título y el autor -->
                         <fo:table-cell padding="4px" number-columns-spanned="4">
                             <fo:block font-family="Times New Roman" font-size="12px">
                                 <xsl:value-of select="title"/>
@@ -69,6 +81,7 @@
                         </fo:table-cell>
                     </fo:table-row>
                     <fo:table-row>
+                        <!-- Celda para el enlace -->
                         <fo:table-cell padding="4px" number-columns-spanned="4">
                             <fo:block font-family="Times New Roman" font-size="12px">
                                 <xsl:value-of select="link"/>
