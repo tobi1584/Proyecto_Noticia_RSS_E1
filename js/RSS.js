@@ -44,7 +44,7 @@ function creaXML(){
             xml = xml + `
                     <item>
                         <title>${datosLocal.titulo}</title>
-                        <link>${"https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/noticia"+(i+1)+".html"}</link>
+                        <link>${"https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/html"+(i+1)+".html"}</link>
                         <description>${datosLocal.descripcion}</description>
                         <author>${datosLocal.autor}</author>
                         <pubDate>${datosLocal.fecha}</pubDate>
