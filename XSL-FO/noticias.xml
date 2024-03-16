@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<rss version="2.0">
+    <channel>
+        <title>RSS E1</title>
+        <link>https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/</link>
+        <description>RSS de noticias E1</description>
+        <item>
+            <title>muere alguienb</title>
+            <link>https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/html1.html</link>
+            <description>bggebfefse</description>
+            <author>hstgheafqwrf nykyj</author>
+            <pubDate>2024-03-10</pubDate>
+            <category>ikkujjy</category>
+            <enclosure url="efefjuklloiñ" length="90000" type="image/jpg"/>
+        </item>
+        <item>
+            <title>Incendio en una casa</title>
+            <link>https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/html2.html</link>
+            <description>awdawd</description>
+            <author>adawd</author>
+            <pubDate>2024-03-12</pubDate>
+            <category>awdawd</category>
+            <enclosure url="adawdawdawdadadawdawdawdawd" length="90000" type="image/jpg"/>
+        </item>
+        <item>
+            <title>Javi va a asesina</title>
+            <link>https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/html3.html</link>
+            <description>Javi kjskjijdojdsi0 id 0is</description>
+            <author>Ricardo Tovar</author>
+            <pubDate>2024-03-12</pubDate>
+            <category>Suspense</category>
+            <enclosure url="adawdawdawdadsadawdawdawdawd" length="90000" type="image/jpg"/>
+        </item>
+    </channel>
+</rss>
