@@ -2,7 +2,6 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:fo="http://www.w3.org/1999/XSL/Format">
 
-    <!-- Definición de estilos -->
     <xsl:template match="/">
         <fo:root>
             <fo:layout-master-set>
@@ -52,21 +51,23 @@
                         </fo:table-cell>
                     </fo:table-row>
                     <fo:table-row>
-                        <!-- Celda para la categoría -->
                         <fo:table-cell padding-top="4px" padding-bottom="4px" number-columns-spanned="2">
                             <fo:block font-family="Trebuchet" font-weight="bold" font-size="12px">
                                 <xsl:value-of select="category"/>
                             </fo:block>
                         </fo:table-cell>
-                        <!-- Celda para la fecha de publicación -->
                         <fo:table-cell padding-top="4px" padding-bottom="4px" number-columns-spanned="2">
                             <fo:block font-family="Trebuchet" font-weight="bold" font-size="10px">
-                                <xsl:value-of select="pubDate"/>
+                                <xsl:variable name="year" select="substring(pubDate, 1, 4)"/>
+                                <xsl:variable name="month" select="substring(pubDate, 6, 2)"/>
+                                <xsl:variable name="day" select="substring(pubDate, 9, 2)"/>
+
+                                <xsl:value-of select="concat($day, '/', $month, '/', $year)"/>
                             </fo:block>
                         </fo:table-cell>
+
                     </fo:table-row>
                     <fo:table-row>
-                        <!-- Celda para el título y el autor -->
                         <fo:table-cell padding-top="4px" padding-bottom="4px" number-columns-spanned="3">
                             <fo:block font-family="Times New Roman" font-size="12px">
                                 <xsl:value-of select="title"/>
@@ -79,7 +80,6 @@
                         </fo:table-cell>
                     </fo:table-row>
                     <fo:table-row>
-                        <!-- Celda para el enlace -->
                         <fo:table-cell padding-top="4px" padding-bottom="4px" number-columns-spanned="4">
                             <fo:block font-family="Times New Roman" font-size="12px">
                                 <xsl:value-of select="link"/>
