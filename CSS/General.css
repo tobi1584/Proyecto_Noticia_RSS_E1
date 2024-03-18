@@ -22,5 +22,8 @@ img{
     height: 35%;
 }
 .noticia{
-    border: black 1px;
+    border: 2px solid black;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
 }
