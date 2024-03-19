@@ -23,14 +23,13 @@ function creaXML(){
 
             uwu = datosLocal.length;
 
-            // Si no...
         } else {
 
             uwu = 5;
 
         }
 
-
+        // Para hacer el xml
         let xml =
             `<?xml version="1.0" standalone="yes"?>
             <?xml-stylesheet type="text/xsl" href="fo.xsl"?>
@@ -62,10 +61,10 @@ function creaXML(){
 
     }
 
-    // Copiar link
+    // Copio link
     navigator.clipboard.writeText("https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/noticias.xml");
 
-    // Cambiar texto por un segundo
+    // Cambio texto por un segundo
     botonRSS.innerHTML = "Enlace copiado al portapapeles"
     setTimeout(e => botonRSS.innerHTML = '<img src="content/rss.png" alt="rss" width="15%">&nbsp;&nbsp;&nbsp;&nbsp;¡Suscríbete!', 1000)
 

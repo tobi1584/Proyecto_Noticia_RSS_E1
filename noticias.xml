@@ -6,21 +6,48 @@
                     <link>https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/</link>
                     <description>RSS de noticias E1</description>
                     <item>
-                        <title>b</title>
+                        <title>titulo6</title>
                         <link>https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/html1.html</link>
-                        <description>b</description>
-                        <author>b</author>
-                        <pubDate>2024-03-13</pubDate>
-                        <category>b</category>
-                        <enclosure url="imagen2" length="90000" type="image/jpg"/>
+                        <description>desc6</description>
+                        <author>autor6</author>
+                        <pubDate>2024-02-29</pubDate>
+                        <category>categoria6</category>
+                        <enclosure url="https://imagenes.elpais.com/resizer/y3twvm3D0jej_zRjbED25-eFf3k=/414x311/filters:focal(190x131:200x141)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/KJJNWOLGRZFGFFJHAZO7ZSOFMY.jpg" length="90000" type="image/jpg"/>
                     </item>
                     <item>
-                        <title>a</title>
+                        <title>titulo5</title>
                         <link>https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/html2.html</link>
-                        <description>a</description>
-                        <author>a</author>
-                        <pubDate>2024-03-14</pubDate>
-                        <category>a</category>
-                        <enclosure url="imagen" length="90000" type="image/jpg"/>
+                        <description>desc5</description>
+                        <author>autor5</author>
+                        <pubDate>2024-03-01</pubDate>
+                        <category>categoria5</category>
+                        <enclosure url="https://media.gettyimages.com/id/1443193307/photo/doha-qatar-cristiano-ronaldo-of-portugal-reacts-during-the-portugal-press-conference-on.jpg?s=612x612&w=0&k=20&c=yWAFj-RTcwqJleiFF3YjVV-cIo2xMnIFFy0CVxCeqxI=" length="90000" type="image/jpg"/>
+                    </item>
+                    <item>
+                        <title>titulo4</title>
+                        <link>https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/html3.html</link>
+                        <description>desc4</description>
+                        <author>autor4</author>
+                        <pubDate>2024-03-04</pubDate>
+                        <category>categoria4</category>
+                        <enclosure url="https://s1.sportstatics.com/relevo/www/multimedia/202309/12/media/cortadas/Cristiano-U34206542650ziI-984x601@Relevo.jpg?cw=794&ch=519" length="90000" type="image/jpg"/>
+                    </item>
+                    <item>
+                        <title>titulo3</title>
+                        <link>https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/html4.html</link>
+                        <description>desc3</description>
+                        <author>autor3</author>
+                        <pubDate>2024-03-10</pubDate>
+                        <category>categoria3</category>
+                        <enclosure url="https://www.sportphotogallery.com/content/images/cmsfiles/product/8365/8365-list.jpg" length="90000" type="image/jpg"/>
+                    </item>
+                    <item>
+                        <title>titulo2</title>
+                        <link>https://tobi1584.github.io/Proyecto_Noticia_RSS_E1/html5.html</link>
+                        <description>desc2</description>
+                        <author>autor2</author>
+                        <pubDate>2024-03-11</pubDate>
+                        <category>categoria2</category>
+                        <enclosure url="https://www.aljazeera.com/wp-content/uploads/2022/08/AP22106563559775.jpg?resize=1170,780&quality=80" length="90000" type="image/jpg"/>
                     </item></channel>
             </rss>

@@ -1,7 +1,7 @@
-// Cogemos los datos del localStorage
+// Ontengo los datos del localStorage
 let datos = localStorage.getItem('datos');
 
-// Y dependiendo del id que tenga el "main" pondrá una noticia u otra
+// Según el id se pondrá una cosa u otra
 datos = JSON.parse(datos.split(";")[parseInt(document.querySelector('main').id)]);
 
 // Escribo el "html" personalizado
@@ -20,5 +20,5 @@ let html = `
     `;
 
 
-// Insertar el contenido HTML generado en el "main"
+// Inserto el contenido HTML generado en el "main"
 document.querySelector('main').innerHTML = html
