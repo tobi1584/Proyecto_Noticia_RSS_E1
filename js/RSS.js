@@ -33,6 +33,7 @@ function creaXML(){
 
         let xml =
             `<?xml version="1.0" standalone="yes"?>
+            <?xml-stylesheet type="text/xsl" href="fo.xsl"?>
             <rss version="2.0">
                 <channel>
                     <title>RSS E1</title>
